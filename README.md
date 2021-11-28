@@ -18,7 +18,7 @@ Usage
 git_repository(
     name = "kruemelmann_rules_jekyll",
     remote = "https://github.com/Kruemelmann/rules_jekyll.git",
-    branch = "master",
+    branch = "main",
 )
 
 load(

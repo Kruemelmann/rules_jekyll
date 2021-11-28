@@ -1,0 +1,10 @@
+#**********************************
+#               cpu settings      *
+#**********************************
+# Limit the number of parallel actions spawned by Bazel to the number of
+# physical CPUs. (Assuming a CPU with hyperthreading enabled)
+build --loading_phase_threads="HOST_CPUS*.5"
+fetch --loading_phase_threads="HOST_CPUS*.5"
+query --loading_phase_threads="HOST_CPUS*.5"
+sync --loading_phase_threads="HOST_CPUS*.5"
+build --local_cpu_resources="HOST_CPUS*.5"

@@ -1,0 +1,26 @@
+workspace(
+    name = "kruemelmann_rules_jekyll",
+)
+
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+
+git_repository(
+    name = "coinbase_rules_ruby",
+    remote = "https://github.com/coinbase/rules_ruby.git",
+    branch = "master",
+)
+
+load(
+    "@coinbase_rules_ruby//ruby:deps.bzl",
+    "ruby_register_toolchains",
+    "rules_ruby_dependencies",
+)
+
+rules_ruby_dependencies()
+
+ruby_register_toolchains()
+
+
+
+

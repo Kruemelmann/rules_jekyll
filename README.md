@@ -53,5 +53,9 @@ jekyll_build(
 
 ```
 
+## Tipps
+
+For better compatibility you should use [bazelisk](https://github.com/bazelbuild/bazelisk). Its a wrapper around bazel and reads the bazeliskrc-File in this project. After this it downloads and uses the correct bazel version.
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

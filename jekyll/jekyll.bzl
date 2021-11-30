@@ -1,14 +1,16 @@
 # this rule will do my jekyll build
-load("@coinbase_rules_ruby//ruby:defs.bzl","rb_bundle")
+#TODO(kruemelmann) find out how to call repository rules in workspace loading phase???
+#load("@coinbase_rules_ruby//ruby:defs.bzl","rb_bundle")
 
 def _jekyll_build_impl(ctx):
-    rb_bundle(
-        name = "bundle",
-        gemfile = ":Gemfile",
-        gemfile_lock = ":Gemfile.lock",
-        bundler_version = "2.1.2",
-        full_index = True,
-    )
+    #TODO see above
+    #rb_bundle(
+        #name = "bundle",
+        #gemfile = ":Gemfile",
+        #gemfile_lock = ":Gemfile.lock",
+        #bundler_version = "2.1.2",
+        #full_index = True,
+    #)
 
     out_file = ctx.actions.declare_directory("_site")
 

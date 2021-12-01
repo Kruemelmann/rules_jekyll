@@ -10,7 +10,7 @@ def load_rules_ruby():
         git_repository,
         name = "coinbase_rules_ruby",
         remote = "https://github.com/coinbase/rules_ruby.git",
-        branch = "master",
+        commit = "a4bcd8e84cc20b097c7f84a319436698894bf87e",
+        shallow_since = "1613636578 -0800",
     )
-
 

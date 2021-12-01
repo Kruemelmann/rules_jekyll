@@ -19,8 +19,10 @@ git_repository(
    remote = "https://github.com/Kruemelmann/rules_jekyll.git",
    branch = "main",
 )
-load("@kruemelmann_rules_jekyll//jekyll:repositories.bzl", "rules_jekyll_dependencies")
-rules_jekyll_dependencies()
+load("@kruemelmann_rules_jekyll//jekyll:deps.bzl", "jekyll_rules_dependencies")
+jekyll_rules_dependencies()
+load("@kruemelmann_rules_jekyll//jekyll:defs.bzl", "jekyll_rules_toolchain")
+jekyll_rules_toolchain()
 ```
 
 ### `BUILD` File

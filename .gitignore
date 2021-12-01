@@ -1,0 +1,11 @@
+### Bazel ###
+/bazel-*
+
+### macOS ###
+.DS_Store
+
+### Ruby ###
+*.gem
+*.rbc
+build/
+

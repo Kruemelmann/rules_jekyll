@@ -1,6 +1,6 @@
 # Jekyll rules for [Bazel](https://bazel.build)
 
-Jekyll rules for Bazel
+[Jekyll](https://jekyllrb.com/) rules for [Bazel](https://bazel.build)
 
 ---
 **NOTE**

@@ -2,13 +2,15 @@
 
 [Jekyll](https://jekyllrb.com/) rules for [Bazel](https://bazel.build)
 
----
-**NOTE**
+## State
 
-THIS IS NOT PRODUCTION READY:) WORK IN PROGRESS
+* The rule works by using a shell command inside (not good will be refactored)
 
----
+## TODO
 
+1. remove the shell commands and build using commands from a toolchain
+2. maybe i have to write rules for bundler to get TODO#1
+3. add tests and examples to the repository so users get an idea of how to use
 
 ## Usage
 

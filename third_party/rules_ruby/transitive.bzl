@@ -23,6 +23,3 @@ def load_rules_ruby_transitive_dependencies():
         sha256 = "85e26971904cbb387688bd2a9e87c105f7cd7d986dc1b96bb1391924479c5ef6",
         strip_prefix = "rules_pkg-3e0cd514ad1cdd2d23ab3d427d34436f75060018/pkg",
     )
-
-
-

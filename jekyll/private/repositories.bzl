@@ -4,5 +4,3 @@ load("@kruemelmann_rules_jekyll//third_party:transitive_dependencies.bzl", "load
 def jekyll_rules_dependencies():
     load_third_party_libraries()
     load_transitive_dependencies()
-
-

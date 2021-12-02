@@ -3,5 +3,4 @@ load(
     _jekyll_rules_dependencies = "jekyll_rules_dependencies",
 )
 
-
 jekyll_rules_dependencies = _jekyll_rules_dependencies

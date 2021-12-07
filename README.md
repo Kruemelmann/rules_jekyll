@@ -11,8 +11,7 @@
 1. remove the shell commands and build using commands from a toolchain
 2. maybe i have to write rules for bundler to get TODO#1
 3. add tests and examples to the repository so users get an idea of how to use
-4. add buildifier so that the project is formatted in the standart way
-5. add 'bundle exec jekyll serve --livereload' livereload
+4. add 'bundle exec jekyll serve --livereload' livereload
 
 ## Usage
 

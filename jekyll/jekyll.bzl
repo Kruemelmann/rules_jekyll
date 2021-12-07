@@ -15,7 +15,6 @@ def jekyll_build_impl(ctx):
         command = "tar -zcf %s %s" % (ctx.outputs.out.path, out_dir.path),
     )
 
-
 jekyll_build_rule = rule(
     implementation = jekyll_build_impl,
     attrs = {

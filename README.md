@@ -8,9 +8,7 @@
 
 ## TODO
 
-1. remove the shell commands and build using commands from a toolchain
-2. maybe i have to write rules for bundler to get TODO#1
-3. add tests and examples to the repository so users get an idea of how to use
+1. add tests and examples to the repository so users get an idea of how to use
 
 
 ## Usage
